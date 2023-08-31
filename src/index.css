@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.container {
+  position: relative
+}
+
+.slider-container {
+  max-width: 1280px;
+  height: 300px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.slider {
+  flex: 0 0 100%;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-prev,
+.btn-next {
+  border: 0;
+  background: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.btn-prev {
+  left: 2vw
+}
+
+.btn-next {
+  right: 2vw
+}
+
+.pagination {
+  position: absolute;
+  z-index: 20;
+  bottom: -5vh;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+.pagination span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #cecece;
+  border-radius: 50%;
+  margin-right: .5rem;
+  cursor: pointer;
+}
+

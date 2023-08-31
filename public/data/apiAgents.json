@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "image": "../../src/assets/image/agents/agents-1.jpg",
+    "name": "Verónica Del Valle",
+    "stand": "Agente de ventas",
+    "office": "(011) 4444-8888",
+    "movil": "11-2525-3535",
+    "email": "homefinder@info.com",
+    "countProperty": 8
+  },
+  {
+    "id": 2,
+    "image": "../../src/assets/image/agents/agents-2.jpg",
+    "name": "Brian May",
+    "stand": "Agente de ventas",
+    "office": "(011) 4444-8888",
+    "movil": "11-2525-3535",
+    "email": "homefinder@info.com",
+    "countProperty": 4
+  },
+  {
+    "id": 3,
+    "image": "../../src/assets/image/agents/agents-3.jpg",
+    "name": "Morena Caceres",
+    "stand": "Agente de ventas",
+    "office": "(011) 4444-8888",
+    "movil": "11-2525-3535",
+    "email": "homefinder@info.com",
+    "countProperty": 5
+  },
+  {
+    "id": 4,
+    "image": "../../src/assets/image/agents/agents-4.jpg",
+    "name": "Roger Taylor",
+    "stand": "Agente de ventas",
+    "office": "(011) 4444-8888",
+    "movil": "11-2525-3535",
+    "email": "homefinder@info.com",
+    "countProperty": 10
+  }
+]
