@@ -36,8 +36,8 @@ const App = () => {
         </div>
 
         <Navigation 
-          onNext={handleNext} 
           onPrev={handlePrev} 
+          onNext={handleNext} 
         />
 
         <Pagination 

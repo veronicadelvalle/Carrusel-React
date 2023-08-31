@@ -1,5 +1,4 @@
 const Navigation = ({ onNext, onPrev }) => {
-
   return (
     <>
       <div className="btn-prev" onClick={onPrev}>
